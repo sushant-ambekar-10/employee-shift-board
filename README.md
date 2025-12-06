@@ -15,7 +15,7 @@ Basically, it's an app where:
 - **Employees** can see their own shifts
 - **The system** prevents chaos like overlapping shifts or people working less than 4 hours
 
-Think of it as a digital shift scheduler that actually prevents your manager from accidentally scheduling someone for 2 overlapping shifts 😅
+Think of it as a digital shift scheduler that actually prevents your manager from accidentally scheduling someone for 2 overlapping shifts 
 
 ---
 

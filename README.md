@@ -203,53 +203,6 @@ Great! No double-booking here.
 
 ---
 
-## How the Code is Organized
-
-shift-board/
-│
-├── backend/
-│ ├── models/ (Database schemas)
-│ │ ├── User.js (Login info)
-│ │ ├── Employee.js (Employee data)
-│ │ └── Shift.js (Shift info)
-│ │
-│ ├── routes/ (API endpoints)
-│ │ ├── auth.js (Login endpoint)
-│ │ ├── employees.js (Get employees)
-│ │ └── shifts.js (Shift CRUD)
-│ │
-│ ├── middleware.js (Auth checks)
-│ ├── server.js (Main server file)
-│ ├── .env (Config file)
-│ └── package.json (Dependencies)
-│
-├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ │ ├── Login.jsx (Login page)
-│ │ │ └── Dashboard.jsx (Main page)
-│ │ │
-│ │ ├── components/
-│ │ │ ├── ShiftForm.jsx (Create shift form)
-│ │ │ └── ShiftTable.jsx (Shift list)
-│ │ │
-│ │ ├── utils/
-│ │ │ └── api.js (API calls)
-│ │ │
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ └── index.js
-│ │
-│ └── package.json
-│
-└── README.md (this file)
-
- 
-
-Simple, right? Each folder has a specific job.
-
----
-
 ## Security Stuff
 
 **Passwords:** Hashed using bcryptjs (not stored as plain  )  
